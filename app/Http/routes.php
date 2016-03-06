@@ -15,6 +15,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::post('foo/bar', function()
+{
+    return 'Hello World';
+});
+
+Route::put('foo/bar', function()
+{
+    //
+});
+
+Route::delete('foo/bar', function()
+{
+    //
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
